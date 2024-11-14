@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="GoalModel" representedClassName="GoalModel" syncable="YES" codeGenerationType="class">
+        <attribute name="gAchName" optional="YES" attributeType="String"/>
+        <attribute name="gDescr" optional="YES" attributeType="String"/>
+        <attribute name="gName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StudModel" representedClassName="StudModel" syncable="YES" codeGenerationType="class">
+        <attribute name="stAge" optional="YES" attributeType="String"/>
+        <attribute name="stName" optional="YES" attributeType="String"/>
+        <attribute name="stStudents" optional="YES" attributeType="String"/>
+        <attribute name="stType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TrainModel" representedClassName="TrainModel" syncable="YES" codeGenerationType="class">
+        <attribute name="trDay" optional="YES" attributeType="String"/>
+        <attribute name="trGroup" optional="YES" attributeType="String"/>
+        <attribute name="trPDur" optional="YES" attributeType="String"/>
+        <attribute name="trPEx" optional="YES" attributeType="String"/>
+        <attribute name="trPName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
